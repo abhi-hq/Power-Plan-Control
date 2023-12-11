@@ -17,9 +17,9 @@ profile_file = 'last_profiles.json'
 
 # another one to map the GUIDs of the profiles
 profile_guids = {
-    'Saver': 'a1841308-3541-4fab-bc81-f71556f20b4a',
-    'Balanced': '381b4222-f694-41f0-9685-ff5bb260df2e',
-    'Performance': '8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c',
+    'Saver': 'POWER-SAVER-GUID',
+    'Balanced': 'BALANCED-GUID',
+    'Performance': 'PERFORMANCE-GUID',
 }
 
 def read_last_profiles(): #reading the last profiles set in the json file and loading accordingly
