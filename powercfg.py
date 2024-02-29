@@ -1,3 +1,4 @@
+import time
 import keyboard
 import subprocess
 import psutil
@@ -80,5 +81,5 @@ while True:
     if current_power_plugged != prev_power_plugged:
         handle_power_status_change()
         prev_power_plugged = current_power_plugged
-
+    time.sleep(0.1)
 
